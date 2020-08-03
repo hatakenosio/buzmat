@@ -1,0 +1,29 @@
+*{
+	background-color: #000;
+}
+
+img{
+	margin: 50px 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	img{
+		width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 801px) {
+	body{
+		margin: 0 auto;
+
+		width: 800px;
+	}
+	img{
+		width: 750px;
+	}
+}
+
+
