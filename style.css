@@ -1,9 +1,10 @@
 *{
 	background-color: #000;
+	text-align: center;
 }
 
 img{
-	margin: 50px 0;
+	margin: 80px 0;
 }
 
 
@@ -14,15 +15,23 @@ img{
 	}
 }
 
+@media screen and (min-width: 401px) {
+	#matui{
+		width: 400px;
+	}
+}
+
 
 @media screen and (min-width: 801px) {
 	body{
 		margin: 0 auto;
-
 		width: 800px;
 	}
 	img{
 		width: 750px;
+	}
+	#matui{
+		width: 400px;
 	}
 }
 
