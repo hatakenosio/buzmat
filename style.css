@@ -9,29 +9,29 @@ img{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 691px) {
 	img{
 		width: 100%;
 	}
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 301px) {
 	#matui{
-		width: 400px;
+		width: 300px;
 	}
 }
 
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 692px) {
 	body{
 		margin: 0 auto;
-		width: 800px;
+		width: 700px;
 	}
 	img{
-		width: 750px;
+		width: 691px;
 	}
 	#matui{
-		width: 400px;
+		width: 300px;
 	}
 }
 
